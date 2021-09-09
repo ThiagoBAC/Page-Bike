@@ -1,0 +1,131 @@
+
+body {
+    background-color: black;
+    font-family: 'Russo One', sans-serif;
+    color: #C8C8C8;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+    margin: 32px;
+}
+
+
+header {
+    grid-column: span 12;
+    margin-top: 21px;
+    margin-left: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+      
+}
+
+.logo {
+    margin: 10px;
+    align-items: center;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #C8C8C8;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav li {
+    display: inline;
+    font-size: 36px;
+    padding: 16px;
+        
+}
+
+.atleta a {
+    text-decoration: none;
+    color: #C8C8C8;
+}
+
+.atleta ul {
+    
+    list-style: none;
+}
+
+.atleta a:hover {
+    color: white;
+}
+
+h2 {
+    grid-column: span 12;
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    
+}
+
+.atleta img {
+    object-fit: cover;
+    width: 329px;
+    height: 329px; 
+    
+     
+}
+
+.infatleta {
+    position: absolute;    
+    width: 315px;
+    padding-left: px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.027), black);    
+    bottom: 4px;
+    padding-left: 14px;
+    padding-bottom: 22px;      
+    
+}
+
+.infatleta h3 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.infatleta p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    font-family: Droid Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.listaatletas {
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    
+    border:transparent 1px solid;
+        
+}
+
+section.atleta {
+    grid-column: span 12;
+    
+}
+
+.listaatletas:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+    border:tomato 1px solid;
+    box-sizing: border-box;
+    
+ }
+
